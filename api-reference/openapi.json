@@ -20,6 +20,9 @@
   ],
   "paths": {
     "/plants": {
+      "servers": {
+        "url": "https://echo.example.com"
+      },
       "get": {
         "description": "Returns all plants from the system that the user has access to",
         "parameters": [
